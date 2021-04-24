@@ -47,13 +47,13 @@ function [sys,x0,str,ts]=mdlInitializeSizes()
 sizes = simsizes;
 sizes.NumContStates  = 5;
 sizes.NumDiscStates  = 0;
-sizes.NumOutputs     = 5;
+sizes.NumOutputs     = 2;
 sizes.NumInputs      = 2;
 sizes.DirFeedthrough = 0;
 sizes.NumSampleTimes = 1;
 
 sys = simsizes(sizes);
-x0  = zeros(5,1);
+x0  = zeros(2,1);
 str = [];
 ts  = [0 0];
 
