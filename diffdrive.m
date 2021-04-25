@@ -68,6 +68,16 @@ function sys=mdlDerivatives(t,x,u)
 %% Place system here 
 r=2;
 d=2;
+ke1 = 0.01;
+ke2 = 0.01;
+jeq1 = 0.01;
+jeq2 = 0.012;
+beq1 = 0.1;
+beq2 = 0.11;
+kt1 = 0.3;
+kt2 = 0.35;
+Ra1 = 1;
+Ra2 = 1.1;
 %change of variables
 x1=x(1); %x
 y=x(2); %y
